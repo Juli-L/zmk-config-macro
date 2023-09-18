@@ -1,3 +1,4 @@
 config SHIELD_TUBETEST
     def_bool $(shields_list_contains, TubeTest)
-    
+    # Turn on logging, and set ZMK logging to debug output
+    CONFIG_ZMK_USB_LOGGING=y
