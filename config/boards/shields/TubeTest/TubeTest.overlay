@@ -11,7 +11,6 @@
         label = "default_kscan";
         diode-direction = "col2row";
 
-<<<<<<< HEAD
         row-gpios = <&xiao_d 4 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>,
                     <&xiao_d 5 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>,
                     <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_DOWN)>;
@@ -20,17 +19,7 @@
                     <&xiao_d 1 GPIO_ACTIVE_LOW>,
                     <&xiao_d 2 GPIO_ACTIVE_LOW>,
                     <&xiao_d 3 GPIO_ACTIVE_LOW>;
-=======
-        row-gpios = <&xiao_d 4 (GPIO_ACTIVE_HIGH)>,
-                    <&xiao_d 5 (GPIO_ACTIVE_HIGH )>,
-                    <&xiao_d 6 (GPIO_ACTIVE_HIGH )>;
-    
-        col-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH & GPIO_PULL_UP )>,
-                    <&xiao_d 1 (GPIO_ACTIVE_HIGH & GPIO_PULL_UP )>,
-                    <&xiao_d 2 (GPIO_ACTIVE_HIGH & GPIO_PULL_UP )>,
-                    <&xiao_d 3 (GPIO_ACTIVE_HIGH & GPIO_PULL_UP )>;
->>>>>>> 4dd0aae87af374d66114ec4fc6943d3379eb78b5
-                    
+              
     };
 
     default_transform: matrix_transform {
