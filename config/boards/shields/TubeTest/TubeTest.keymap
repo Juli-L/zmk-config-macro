@@ -9,11 +9,7 @@
             bindings = <
                 &kp KP_N7 &kp KP_N7    &kp KP_N8     &mo 1
                 &kp KP_N4 &kp KP_N4    &kp KP_N5     &kp SEMI
-<<<<<<< HEAD
-                &kp KP_N1 &kp KP_N1    &kp DQT         &kp LBKT
-=======
                 &kp KP_N1 &kp A    &kp DQT     &kp LBKT
->>>>>>> 4dd0aae87af374d66114ec4fc6943d3379eb78b5
             >;
         }; 
         
