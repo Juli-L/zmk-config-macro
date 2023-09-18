@@ -2,5 +2,6 @@ if SHIELD_TUBETEST
             
 config ZMK_KEYBOARD_NAME
     default "TubeTest"
+    CONFIG_ZMK_USB_LOGGING=y
 
 endif
